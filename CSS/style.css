@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Anton;
+    src: url(../fonts/Anton-Regular.ttf);
+}
+header{
+    position: relative;
+}
+.backimage{
+    opacity: 0.3;
+}
+.logo{
+    font-family: Anton;
+    font-size: 60px;
+    color: rgba(255, 153, 0, 1);
+    min-width: 70%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+}
+.lang{
+    background-color: black;
+    font-size: 1em;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: 1px solid white;
+    margin-top: 26px;
+    position: absolute;
+    top: 0px;
+    left:75%;
+}
+.login{
+    background-color: black;
+    font-size: 1em;
+    color: white;
+    height: 40px;
+    width: 120px;
+    background-color: rgba(255, 153, 0, 1);
+    border: 1px solid rgba(255, 153, 0, 1);
+    margin-top: 26px;
+    position: absolute;
+    top: 0px;
+    left: 86%;
+}
+body{
+    background-color: black;
+}
